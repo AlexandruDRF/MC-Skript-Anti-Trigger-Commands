@@ -1,0 +1,211 @@
+# anti-trigger by Alexandru DRF#6358
+
+command /pl:
+    permission: false
+    executable by: players
+    trigger:
+        message "&l&fMAIN-&1DEV&f » &1Comanda dezactivata."
+        kick player due to "&fMAIN-&1DEV&f » Ai primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND%newline% %newline%&f UUID:&1 %player's uuid%&f IP:&1 %player's ip%%newline% %newline%&fDaca consideri ca este o eroare, te rog sa faci un ticket pe discord."
+        broadcast "&fMAIN-&1DEV&f » Jucatorul &1%player%&f a primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND (/%command%)"
+        console command "a Jucatorul &1%player%&f a primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND (/%command%) UUID:&1 %player's uuid%&f IP:&1 %player's ip%"
+
+
+command /plugins:
+    permission: false
+    executable by: players
+    trigger:
+        message "&l&fMAIN-&1DEV&f » &1Comanda dezactivata."
+        kick player due to "&fMAIN-&1DEV&f » Ai primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND"
+        broadcast "&fMAIN-&1DEV&f » Jucatorul &1%player%&f a primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND (/%command%)"
+
+command /bukkit:pl:
+    permission: false
+    executable by: players
+    trigger:
+        message "&l&fMAIN-&1DEV&f » &1Comanda dezactivata."
+        kick player due to "&fMAIN-&1DEV&f » Ai primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND"
+        broadcast "&fMAIN-&1DEV&f » Jucatorul &1%player%&f a primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND (/%command%)"
+
+command /bukkit:plugins:
+    permission: false
+    executable by: players
+    trigger:
+        message "&l&fMAIN-&1DEV&f » &1Comanda dezactivata."
+        kick player due to "&fMAIN-&1DEV&f » Ai primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND"
+        broadcast "&fMAIN-&1DEV&f » Jucatorul &1%player%&f a primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND (/%command%)"
+
+command /minecraft:me:
+    permission: false
+    executable by: players
+    trigger:
+        message "&l&fMAIN-&1DEV&f » &1Comanda dezactivata."
+        kick player due to "&fMAIN-&1DEV&f » Ai primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND"
+        broadcast "&fMAIN-&1DEV&f » Jucatorul &1%player%&f a primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND (/%command%)"
+
+command /minecraft:gamemode:
+    permission: false
+    executable by: players
+    trigger:
+        message "&l&fMAIN-&1DEV&f » &1Comanda dezactivata."
+        kick player due to "&fMAIN-&1DEV&f » Ai primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND"
+        broadcast "&fMAIN-&1DEV&f » Jucatorul &1%player%&f a primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND (/%command%)"
+
+command /minecraft:gm:
+    permission: false
+    executable by: players
+    trigger:
+        message "&l&fMAIN-&1DEV&f » &1Comanda dezactivata."
+        kick player due to "&fMAIN-&1DEV&f » Ai primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND"
+        broadcast "&fMAIN-&1DEV&f » Jucatorul &1%player%&f a primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND (/%command%)"
+
+command /minecraft:op:
+    permission: false
+    executable by: players
+    trigger:
+        message "&l&fMAIN-&1DEV&f » &1Comanda dezactivata."
+        kick player due to "&fMAIN-&1DEV&f » Ai primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND"
+        broadcast "&fMAIN-&1DEV&f » Jucatorul &1%player%&f a primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND (/%command%)"
+
+command /me:
+    permission: false
+    executable by: players
+    trigger:
+        message "&l&fMAIN-&1DEV&f » &1Comanda dezactivata."
+        kick player due to "&fMAIN-&1DEV&f » Ai primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND"
+        broadcast "&fMAIN-&1DEV&f » Jucatorul &1%player%&f a primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND (/%command%)"
+
+command /ver:
+    permission: false
+    executable by: players
+    trigger:
+        message "&l&fMAIN-&1DEV&f » &1Comanda dezactivata."
+        kick player due to "&fMAIN-&1DEV&f » Ai primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND"
+        broadcast "&fMAIN-&1DEV&f » Jucatorul &1%player%&f a primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND (/%command%)"
+
+command /version:
+    permission: false
+    executable by: players
+    trigger:
+        message "&l&fMAIN-&1DEV&f » &1Comanda dezactivata."
+        kick player due to "&fMAIN-&1DEV&f » Ai primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND"
+        broadcast "&fMAIN-&1DEV&f » Jucatorul &1%player%&f a primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND (/%command%)"
+
+command //calc:
+    permission: false
+    executable by: players
+    trigger:
+        message "&l&fMAIN-&1DEV&f » &1Comanda dezactivata."
+        kick player due to "&fMAIN-&1DEV&f » Ai primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND"
+        broadcast "&fMAIN-&1DEV&f » Jucatorul &1%player%&f a primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND (/%command%)"
+
+command //calculate:
+    permission: false
+    executable by: players
+    trigger:
+        message "&l&fMAIN-&1DEV&f » &1Comanda dezactivata."
+        kick player due to "&fMAIN-&1DEV&f » Ai primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND"
+        broadcast "&fMAIN-&1DEV&f » Jucatorul &1%player%&f a primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND (/%command%)"
+
+command /worldedit:/calc:
+    permission: false
+    executable by: players
+    trigger:
+        message "&l&fMAIN-&1DEV&f » &1Comanda dezactivata."
+        kick player due to "&fMAIN-&1DEV&f » Ai primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND"
+        broadcast "&fMAIN-&1DEV&f » Jucatorul &1%player%&f a primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND (/%command%)"
+
+command /worldedit:/calculate:
+    permission: false
+    executable by: players
+    trigger:
+        message "&l&fMAIN-&1DEV&f » &1Comanda dezactivata."
+        kick player due to "&fMAIN-&1DEV&f » Ai primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND"
+        broadcast "&fMAIN-&1DEV&f » Jucatorul &1%player%&f a primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND (/%command%)"
+
+command /worldedit:/evaluate:
+    permission: false
+    executable by: players
+    trigger:
+        message "&l&fMAIN-&1DEV&f » &1Comanda dezactivata."
+        kick player due to "&fMAIN-&1DEV&f » Ai primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND"
+        broadcast "&fMAIN-&1DEV&f » Jucatorul &1%player%&f a primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND (/%command%)"
+
+command /worldedit:/eval:
+    permission: false
+    executable by: players
+    trigger:
+        message "&l&fMAIN-&1DEV&f » &1Comanda dezactivata."
+        kick player due to "&fMAIN-&1DEV&f » Ai primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND"
+        broadcast "&fMAIN-&1DEV&f » Jucatorul &1%player%&f a primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND (/%command%)"
+
+command //evaluate:
+    permission: false
+    executable by: players
+    trigger:
+        message "&l&fMAIN-&1DEV&f » &1Comanda dezactivata."
+        kick player due to "&fMAIN-&1DEV&f » Ai primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND"
+        broadcast "&fMAIN-&1DEV&f » Jucatorul &1%player%&f a primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND (/%command%)"
+
+command //solve:
+    permission: false
+    executable by: players
+    trigger:
+        message "&l&fMAIN-&1DEV&f » &1Comanda dezactivata."
+        kick player due to "&fMAIN-&1DEV&f » Ai primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND"
+        broadcast "&fMAIN-&1DEV&f » Jucatorul &1%player%&f a primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND (/%command%)"
+
+command /worldedit:/solve:
+    permission: false
+    executable by: players
+    trigger:
+        message "&l&fMAIN-&1DEV&f » &1Comanda dezactivata."
+        kick player due to "&fMAIN-&1DEV&f » Ai primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND"
+        broadcast "&fMAIN-&1DEV&f » Jucatorul &1%player%&f a primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND (/%command%)"
+
+command /help:
+    permission: false
+    executable by: players
+    trigger:
+        message "&l&fMAIN-&1DEV&f » &1Comanda dezactivata."
+        kick player due to "&fMAIN-&1DEV&f » Ai primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND"
+        broadcast "&fMAIN-&1DEV&f » Jucatorul &1%player%&f a primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND (/%command%)"
+
+command /bukkit:help:
+    permission: false
+    executable by: players
+    trigger:
+        message "&l&fMAIN-&1DEV&f » &1Comanda dezactivata."
+        kick player due to "&fMAIN-&1DEV&f » Ai primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND"
+        broadcast "&fMAIN-&1DEV&f » Jucatorul &1%player%&f a primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND (/%command%)"
+
+command /bukkit help:
+    permission: false
+    executable by: players
+    trigger:
+        message "&l&fMAIN-&1DEV&f » &1Comanda dezactivata."
+        kick player due to "&fMAIN-&1DEV&f » Ai primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND"
+        broadcast "&fMAIN-&1DEV&f » Jucatorul &1%player%&f a primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND (/%command%)"
+
+command /?:
+    permission: false
+    executable by: players
+    trigger:
+        message "&l&fMAIN-&1DEV&f » &1Comanda dezactivata."
+        kick player due to "&fMAIN-&1DEV&f » Ai primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND"
+        broadcast "&fMAIN-&1DEV&f » Jucatorul &1%player%&f a primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND (/%command%)"
+
+command /bukkit:?:
+    permission: false
+    executable by: players
+    trigger:
+        message "&l&fMAIN-&1DEV&f » &1Comanda dezactivata."
+        kick player due to "&fMAIN-&1DEV&f » Ai primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND"
+        broadcast "&fMAIN-&1DEV&f » Jucatorul &1%player%&f a primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND (/%command%)"
+
+command /bukkit:version:
+    permission: false
+    executable by: players
+    trigger:
+        message "&l&fMAIN-&1DEV&f » &1Comanda dezactivata."
+        kick player due to "&fMAIN-&1DEV&f » Ai primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND"
+        broadcast "&fMAIN-&1DEV&f » Jucatorul &1%player%&f a primit kick automat pe motivul: &1TRIGGERED_BLACKLISTED_COMMAND (/%command%)"
