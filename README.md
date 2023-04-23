@@ -4,4 +4,6 @@ Blocked commands:<br>
 <b>/pl;<br>/plugins;<br>/bukkit:pl;<br>/bukkit:plugins:;<br>/minecraft:me:;<br>/minecraft:gamemode:;<br>/minecraft:gm:;<br>/minecraft:op:;<br>/me:;<br>/ver:;<br>/version:;<br>//calc:;<br>//calculate:;<br>/worldedit:/calc:;<br>/worldedit:/calculate:;<br>/worldedit:/evaluate:;<br>/worldedit:/eval:;<br>//evaluate:;<br>//solve:;<br>/worldedit:/solve:;<br>/help:;<br>/bukkit:help;<br>/bukkit help:;<br>/?:;<br>/bukkit:?:;<br>/bukkit:version:;<br><b>
 <--> Requires Essentials <--> <br>
 <--> Requires Skript <--> <br>
-<--> Fully customizable <-->
+<--> Fully customizable <--><br>
+
+https://i.imgur.com/s6xvrBn.png
