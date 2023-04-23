@@ -7,3 +7,4 @@ Blocked commands:<br>
 <--> Fully customizable <--><br>
 
 https://i.imgur.com/s6xvrBn.png
+https://i.imgur.com/rTJeT6a.png
